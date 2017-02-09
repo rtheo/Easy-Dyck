@@ -16,9 +16,15 @@ membership in the Dyck set of constant length which is necessarilly a subset of 
 This is an entirely different approach, based solely on the use of characteristic functions filtering out finer properties of subsets to converge to the final result. Their use justifies the extraction of certain indicator functions as compositions of
 simpler or more fundamental ones in which case their fractality can bereduced into their composites. The decomposition is given
 as follows:
+
 A. For any interval {0,...,2^n} we isolate the subset of n 1s by the use of the <a href="http://mathworld.wolfram.com/DigitSum.html">Digit-Sum function</a> S2(i) which contains (2n n) elements from the general decomposition of powers of two into factorials. The S2 function is naturally self-similar and uniformly computable in any exp. interval.
+
 B. We further isolate all odd members of the previous class and use a binary decoder to extract the pattern. This is then passed through another special encoder performing a lossless encoding of any bit sequence into its bitblock structure. This is represented as a set of coefficients of an alternating polynomial, or "Cluster polynomial" with "+" for 1s and "-" for 0s. The set of all such
 polynomials / integer also has a naturally self-similar, recursive structure inside any exponential interval and it could have been constructed from the beginning without any binary decoder but this would make the example more complex.
+
 C. The final indicator is given as the condition that no partial sum of the resulting coefficients should be negative.
 
 The two programs give identical results tested upto 32 bits precision. The particular 'bitblock' function is a generic utility for further analyzing the inherent fractality of indicator functions. If the output of any of the two programs is again anlyzed its cluster structure is revealed to have islands of 0s with a characteristically self-similar scaling as in the below example from dyck(6)
+<p align="center">
+  <img src="https://github.com/rtheo/CAdynamics/blob/master/IDX3-6.jpg" width="350"/>
+</p>
