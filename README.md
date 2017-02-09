@@ -26,5 +26,5 @@ C. The final indicator is given as the condition that no partial sum of the resu
 
 The two programs give identical results tested upto 32 bits precision. The particular 'bitblock' function is a generic utility for further analyzing the inherent fractality of indicator functions. If the output of any of the two programs is again anlyzed its cluster structure is revealed to have islands of 0s with a characteristically self-similar scaling as in the below example from dyck(6)
 <p align="center">
-  <img src="https://github.com/rtheo/CAdynamics/blob/master/IDX3-6.jpg" width="350"/>
+  <img src="https://github.com/rtheo/Easy-Dyck/blob/master/IDX3-6.jpg" width="350"/>
 </p>
