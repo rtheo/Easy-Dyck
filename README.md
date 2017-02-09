@@ -28,3 +28,4 @@ The two programs give identical results tested upto 32 bits precision. The parti
 <p align="center">
   <img src="https://github.com/rtheo/Easy-Dyck/blob/master/IDX3-6.jpg" width="350"/>
 </p>
+Such images are ubiquitous and their similarity with a tree-like structure allows interpolating them usually with sums of products of appropriate conguences. If a generic formula can be found for two levels of a combinatorial hierarchy of successive orders 2^n --> 2^(n+1), then an abstract formula can be found that can replace whole chunks of code, thus representing a type of radical Kolmogorov complexity reduction. The complete arithmetizatio nprogram would then be the ability to work on patterns without the patterns themselves thus avoiding any encoder/decoder pair and allowing one to hide symbolic/digital calculations inside analog dynamical systems or using signal processing techniques via a direct transcription into a Fourier domain.  
